@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about CyberScope, a cybersecurity awareness and IP intelligence project.">
+  <title>About | CyberScope</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="index.html"><span class="brand-mark">C</span><span>Cyber<span class="brand-accent">Scope</span><small>SECURITY INTELLIGENCE</small></span></a>
+    <div class="side-label">WORKSPACE</div>
+    <nav class="side-nav">
+      <a class="nav-link" href="index.html"><span class="nav-icon">⌂</span>Dashboard</a>
+      <a class="nav-link" href="index.html#lookup"><span class="nav-icon">⌕</span>IP Intelligence</a>
+      <a class="nav-link" href="index.html#history"><span class="nav-icon">◷</span>Investigation History</a>
+      <a class="nav-link" href="index.html#favorites"><span class="nav-icon">☆</span>Saved IPs</a>
+      <a class="nav-link" href="index.html#vulnerabilities"><span class="nav-icon">⌁</span>Vulnerability Watch</a>
+    </nav>
+    <div class="side-label side-label-spaced">INFORMATION</div>
+    <nav class="side-nav">
+      <a class="nav-link active" href="about.html"><span class="nav-icon">ⓘ</span>About CyberScope</a>
+      <a class="nav-link" href="guide.html"><span class="nav-icon">▤</span>Security Guide</a>
+    </nav>
+    <div class="sidebar-bottom"><div class="status-dot"></div><div><strong>Dashboard ready</strong><small>Local session active</small></div></div>
+  </aside>
+  <main class="main-content">
+    <header class="topbar"><div class="topbar-left"><a class="back-link" href="index.html">← Dashboard</a><div><div class="eyebrow">PROJECT INFORMATION</div><h1>About CyberScope</h1></div></div><span class="live-indicator"><i></i> PROJECT OVERVIEW</span></header>
+    <section class="page-hero"><p class="eyebrow">OUR PURPOSE</p><h2>Making cybersecurity information easier to explore.</h2><p class="muted lead">CyberScope is a browser-based learning and awareness dashboard that brings public IP geolocation lookup, investigation history, saved records and vulnerability references into one clean workspace.</p></section>
+    <section class="info-grid">
+      <article class="info-card"><span class="feature-icon cyan">⌕</span><h3>IP Intelligence</h3><p>Look up a public IPv4 address and view available country, city, region, network organization and ASN information from an external geolocation API.</p></article>
+      <article class="info-card"><span class="feature-icon violet">◷</span><h3>Investigation Tracking</h3><p>Keep a local history of lookups, filter previous records and bookmark IP addresses for quick reference.</p></article>
+      <article class="info-card"><span class="feature-icon green">⌁</span><h3>Security Awareness</h3><p>Explore selected vulnerability examples and learn why software updates and responsible security practices matter.</p></article>
+    </section>
+    <section class="panel content-panel"><p class="eyebrow">HOW IT WORKS</p><h2>Simple workflow</h2><div class="workflow-list"><div><b>01</b><span><strong>Enter an IP address</strong><small>Provide a valid public IPv4 address in the dashboard lookup form.</small></span></div><div><b>02</b><span><strong>Retrieve public information</strong><small>CyberScope requests available geolocation data from ipapi.co and displays the response.</small></span></div><div><b>03</b><span><strong>Save and review</strong><small>Keep useful results in your local browser history and favorites.</small></span></div></div></section>
+    <section class="notice-card"><strong>Important limitations</strong><p>IP geolocation is approximate and does not identify a person's exact home or physical location. A geolocation result is not proof of malicious activity. CyberScope does not currently perform packet inspection, IP reputation scoring, intrusion detection or live threat monitoring. Vulnerability entries on the dashboard are reference examples, not a live feed.</p></section>
+    <footer class="footer"><span>© 2026 CyberScope</span><span>Cybersecurity learning and awareness</span></footer>
+  </main>
+</div>
+</body>
+</html>
